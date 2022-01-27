@@ -15,13 +15,16 @@ To convert CAD models into PointCloud, we use [FreeCAD](https://www.freecadweb.o
     - Go to tab "View", select "Points" under "Workbench", a new tab called "Points" will show up
     - Select the shape object
     - Go to tab "Points", select "Convert to points" to obtain a point cloud version of the object
+3. Save the point cloud as .pcd files
+    - A MATLAB script "pcd2mat.m" is provided to convert the .pcd files into .mat format.
+    - Notes: Transformations and/or scaling may be needed, depending on the original CAD models.
 
 
 ### Sources:
 1. Hawkeye
 https://github.com/JaydenG1019/HawkEye-Data-Code
 - Cars (first 10 only, the rest can be found at repository above)
-* Orignally in .mat
+| Orignally in .mat |
 
 2. Priceton ModelNet
 https://modelnet.cs.princeton.edu/
