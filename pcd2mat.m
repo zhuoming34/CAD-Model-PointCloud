@@ -2,7 +2,7 @@
 close all; clear; clc;
 
 item = "desk";
-loadaddr = strcat("F:\3_Education\UMASS\Courses\droneSLAM\CADs\",item,"\");
+loadaddr = strcat("F:\CADs\",item,"\");
 saveaddr = loadaddr;
 
 
