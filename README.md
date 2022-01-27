@@ -2,9 +2,10 @@
 .mat files of Point cloud of CAD models
 
 ## Conversion to PointCloud 
-To convert CAD models into PointCloud, we use [FreeCAD](https://www.freecadweb.org/) 
-For files in ".step" format whose objects are solid shape, skip step #1.
-For files in ".off", ".stl" formats whose objects are meshes, first convert to solid objects.
+To convert CAD models into PointCloud, we use [FreeCAD](https://www.freecadweb.org/).
++ For files in ".off", ".stl" formats whose objects are meshes, first convert to solid objects.
++ For files in ".step" format whose objects are solid shape, skip step #1.
+
 
 1. Create Shape from Mesh
     - Go to tab "View", select "Part" under "Workbench", a new tab called "Part" will show up
